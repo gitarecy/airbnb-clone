@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>airbnb-clone</title>
     <link href="dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
-    <header>
+    <div class="container">
+        <header>
+            <div>Logo</div>
+            <div>Navigation</div>
+            <div>SearchBar</div>
+        </header>
+        <main>
+            <div>Main Section here</div>
+        </main>
+        <footer>
+            <div>footer here</div>
+        </footer>
+    </div>
+    
+
+
+
+    <header class="flex items-center">
         <nav class="header">
             <div class="logo">
                 <a href="#" class="logo">
@@ -16,13 +34,33 @@
                 </a>
             </div>
             
-            <div class="header-right">
-              <a class="active" href="#home">Anywhere</a>
-              <a href="#contact">Any week</a>
-              <a href="#about">Add guests</a>
+            <div class="header-middle">
+              <a class="active" href="#">Anywhere</a>
+              <a href="#">Any week</a>
+              <a href="#">Add guests</a>
               <button type="submit">
                 <i class="fas fa-search"></i>
               </button>
+            </div>
+            <div class="header-left">
+                <span><a href="#">airbnb your home</a></span>
+                <span>
+                    <button type="submit">
+                        <i class="fa-thin fa-globe"></i>
+                    </button>
+                </span>
+                <span>
+                    <menu>
+                        <ul>
+                            <li>Sign up</li>
+                            <li>Log in</li>
+                        </ul>
+                        <ul>
+                            <li>airbnb your home</li>
+                            <li>help</li>
+                        </ul>
+                    </menu>
+                </span>
             </div>
         </nav>
     </header>
